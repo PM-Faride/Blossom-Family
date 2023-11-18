@@ -1,0 +1,89 @@
+{
+"skeleton": {
+	"hash": "LX1fIl6uyHQHqKzGtUY1Ke67vGQ",
+	"spine": "3.8",
+	"x": -173,
+	"y": -267,
+	"width": 346,
+	"height": 566,
+	"images": "./1/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "banafsh", "bone": "root", "attachment": "l6" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"banafsh": {
+				"1": { "y": -5, "width": 349, "height": 527 },
+				"2": { "y": -5, "width": 343, "height": 521 },
+				"3": { "y": -5, "width": 339, "height": 522 },
+				"4": { "y": -5, "width": 339, "height": 519 },
+				"5": { "y": -5, "width": 339, "height": 522 },
+				"6": { "y": -5, "width": 343, "height": 521 },
+				"l1": { "y": 16, "width": 348, "height": 567 },
+				"l2": { "y": 16, "width": 346, "height": 566 },
+				"l3": { "y": 16, "width": 339, "height": 567 },
+				"l4": { "y": 16, "width": 339, "height": 567 },
+				"l5": { "y": 16, "width": 339, "height": 567 },
+				"l6": { "y": 16, "width": 346, "height": 566 },
+				"w1": { "x": 0.5, "y": 0.5, "width": 463, "height": 543 },
+				"w2": { "y": 0.5, "width": 476, "height": 537 },
+				"w3": { "width": 478, "height": 530 },
+				"w4": { "y": 0.5, "width": 474, "height": 525 },
+				"w5": { "width": 478, "height": 530 },
+				"w6": { "y": 0.5, "width": 476, "height": 537 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle": {
+		"slots": {
+			"banafsh": {
+				"attachment": [
+					{ "name": "1" },
+					{ "time": 0.0667, "name": "2" },
+					{ "time": 0.1333, "name": "3" },
+					{ "time": 0.2, "name": "4" },
+					{ "time": 0.2667, "name": "5" },
+					{ "time": 0.3333, "name": "6" }
+				]
+			}
+		}
+	},
+	"lose": {
+		"slots": {
+			"banafsh": {
+				"attachment": [
+					{ "name": "l1" },
+					{ "time": 0.0667, "name": "l2" },
+					{ "time": 0.1333, "name": "l3" },
+					{ "time": 0.2, "name": "l4" },
+					{ "time": 0.2667, "name": "l5" },
+					{ "time": 0.3333, "name": "l6" }
+				]
+			}
+		}
+	},
+	"win": {
+		"slots": {
+			"banafsh": {
+				"attachment": [
+					{ "name": "w1" },
+					{ "time": 0.0667, "name": "w2" },
+					{ "time": 0.1333, "name": "w3" },
+					{ "time": 0.2, "name": "w4" },
+					{ "time": 0.2667, "name": "w5" },
+					{ "time": 0.3333, "name": "w6" }
+				]
+			}
+		}
+	}
+}
+}

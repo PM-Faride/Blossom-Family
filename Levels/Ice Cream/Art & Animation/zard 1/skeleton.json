@@ -1,0 +1,89 @@
+{
+"skeleton": {
+	"hash": "EszVzohp4xzXHsU4RqtzE2Zm4do",
+	"spine": "3.8",
+	"x": -167,
+	"y": -243,
+	"width": 334,
+	"height": 566,
+	"images": "./2/",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "wb6" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"1": { "x": 0.5, "y": 0.5, "width": 337, "height": 483 },
+				"2": { "y": 0.5, "width": 330, "height": 483 },
+				"3": { "x": 0.5, "y": 0.5, "width": 325, "height": 481 },
+				"4": { "x": 0.5, "y": 0.5, "width": 325, "height": 479 },
+				"5": { "x": 0.5, "y": 0.5, "width": 325, "height": 481 },
+				"6": { "y": 0.5, "width": 330, "height": 483 },
+				"w1": { "y": 0.5, "width": 424, "height": 497 },
+				"w2": { "x": 0.5, "y": 0.5, "width": 433, "height": 497 },
+				"w3": { "x": 0.5, "width": 437, "height": 496 },
+				"w4": { "x": 0.5, "width": 435, "height": 494 },
+				"w5": { "x": 0.5, "width": 437, "height": 496 },
+				"w6": { "x": 0.5, "y": 0.5, "width": 433, "height": 497 },
+				"wb1": { "y": 40, "width": 337, "height": 567 },
+				"wb2": { "y": 40, "width": 334, "height": 566 },
+				"wb3": { "x": 0.5, "y": 40, "width": 329, "height": 567 },
+				"wb4": { "y": 40, "width": 328, "height": 567 },
+				"wb5": { "x": 0.5, "y": 40, "width": 329, "height": 567 },
+				"wb6": { "y": 40, "width": 334, "height": 566 }
+			}
+		}
+	}
+],
+"animations": {
+	"idle zard": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "1" },
+					{ "time": 0.0667, "name": "2" },
+					{ "time": 0.1333, "name": "3" },
+					{ "time": 0.2, "name": "4" },
+					{ "time": 0.2667, "name": "5" },
+					{ "time": 0.3333, "name": "6" }
+				]
+			}
+		}
+	},
+	"lose zard": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "wb1" },
+					{ "time": 0.0667, "name": "wb2" },
+					{ "time": 0.1333, "name": "wb3" },
+					{ "time": 0.2, "name": "wb4" },
+					{ "time": 0.2667, "name": "wb5" },
+					{ "time": 0.3333, "name": "wb6" }
+				]
+			}
+		}
+	},
+	"win zard": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "w1" },
+					{ "time": 0.0667, "name": "w2" },
+					{ "time": 0.1333, "name": "w3" },
+					{ "time": 0.2, "name": "w4" },
+					{ "time": 0.2667, "name": "w5" },
+					{ "time": 0.3333, "name": "w6" }
+				]
+			}
+		}
+	}
+}
+}

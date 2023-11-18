@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Bat.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/Scenes/BreakingCup.unity
+    guid: 569eeae5563854b4c8f91885fb4844c9
+  - enabled: 0
+    path: Assets/Scenes/Fraction.unity
+    guid: df67bb7c66d66484c8bedd901eb54052
+  - enabled: 0
+    path: Assets/Scenes/Grenade.unity
+    guid: 931a0e025e1e96349b8a045c5b94199e
+  - enabled: 0
+    path: Assets/Scenes/HandMath.unity
+    guid: 9c1ab88199ffa84488c185c4d4014771
+  - enabled: 0
+    path: Assets/Scenes/Penguin.unity
+    guid: 6bcb454402992a64fba0f8acd21991c2
+  - enabled: 0
+    path: Assets/Scenes/Clock.unity
+    guid: 2f5843a313fcc3a4a811ea72bde89922
+  - enabled: 0
+    path: Assets/Scenes/IceCream.unity
+    guid: e189ef9bf2efecd48afa14655ea63845
+  - enabled: 0
+    path: Assets/Scenes/FaceOff.unity
+    guid: 1b8a3036fbb1b7a419197a89176d7114
+  - enabled: 1
+    path: Assets/Scenes/10-DressUp.unity
+    guid: 3d8ebe7ba95346241b1bed8cc2132e46
+  - enabled: 0
+    path: Assets/Scenes/11-BirdPooping.unity
+    guid: fa42fb96502d31d4c8944f39019dd8e7
+  - enabled: 0
+    path: Assets/Scenes/12-Safe.unity
+    guid: 9f5c881b88792e948abb671d485fb78b
+  - enabled: 0
+    path: Assets/Scenes/13-Basket.unity
+    guid: abf0bb531aef03040aceb212aff46ea8
+  m_configObjects: {}

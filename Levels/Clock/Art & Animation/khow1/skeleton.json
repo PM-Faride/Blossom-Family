@@ -1,0 +1,69 @@
+{
+"skeleton": {
+	"hash": "cX+UaD/GMvpoRF0sVxrfk9QqPhc",
+	"spine": "3.8",
+	"x": -237,
+	"y": -334,
+	"width": 475,
+	"height": 669,
+	"images": "C:/Users/shams-TAGHAVI/Desktop/ll/khow/wu",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "kh", "bone": "root", "attachment": "k6" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"kh": {
+				"1": { "width": 490, "height": 558 },
+				"2": { "x": 0.5, "width": 487, "height": 554 },
+				"3": { "x": 0.5, "y": 0.5, "width": 481, "height": 549 },
+				"4": { "y": 0.5, "width": 476, "height": 549 },
+				"5": { "x": 0.5, "y": 0.5, "width": 481, "height": 549 },
+				"6": { "x": 0.5, "width": 487, "height": 554 },
+				"k1": { "y": 0.5, "width": 472, "height": 669 },
+				"k2": { "x": 0.5, "y": 0.5, "width": 475, "height": 669 },
+				"k3": { "width": 476, "height": 670 },
+				"k4": { "width": 476, "height": 672 },
+				"k5": { "width": 476, "height": 670 },
+				"k6": { "x": 0.5, "y": 0.5, "width": 475, "height": 669 }
+			}
+		}
+	}
+],
+"animations": {
+	"khow": {
+		"slots": {
+			"kh": {
+				"attachment": [
+					{ "name": "1" },
+					{ "time": 0.0667, "name": "2" },
+					{ "time": 0.1333, "name": "3" },
+					{ "time": 0.2, "name": "4" },
+					{ "time": 0.2667, "name": "5" },
+					{ "time": 0.3333, "name": "6" }
+				]
+			}
+		}
+	},
+	"wakeup": {
+		"slots": {
+			"kh": {
+				"attachment": [
+					{ "name": "k1" },
+					{ "time": 0.0667, "name": "k2" },
+					{ "time": 0.1333, "name": "k3" },
+					{ "time": 0.2, "name": "k4" },
+					{ "time": 0.2667, "name": "k5" },
+					{ "time": 0.3333, "name": "k6" }
+				]
+			}
+		}
+	}
+}
+}

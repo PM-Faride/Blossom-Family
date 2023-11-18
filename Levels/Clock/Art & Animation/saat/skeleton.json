@@ -1,0 +1,69 @@
+{
+"skeleton": {
+	"hash": "9J410Fk9PZqbnB6lSv4tjm1WWn8",
+	"spine": "3.8",
+	"x": -208,
+	"y": -243,
+	"width": 417,
+	"height": 487,
+	"images": "C:/Users/shams-TAGHAVI/Desktop/ll/khow/saat",
+	"audio": ""
+},
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "1", "bone": "root", "attachment": "r6" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"1": {
+				"idc1": { "width": 356, "height": 398 },
+				"idc2": { "width": 356, "height": 400 },
+				"idc3": { "width": 356, "height": 398 },
+				"idc4": { "width": 354, "height": 400 },
+				"idc5": { "width": 356, "height": 398 },
+				"idc6": { "width": 356, "height": 400 },
+				"r1": { "x": 0.5, "y": 0.5, "width": 417, "height": 489 },
+				"r2": { "x": 0.5, "y": 0.5, "width": 417, "height": 487 },
+				"r3": { "x": 0.5, "y": 0.5, "width": 417, "height": 489 },
+				"r4": { "x": 0.5, "y": 0.5, "width": 417, "height": 487 },
+				"r5": { "x": 0.5, "y": 0.5, "width": 417, "height": 489 },
+				"r6": { "x": 0.5, "y": 0.5, "width": 417, "height": 487 }
+			}
+		}
+	}
+],
+"animations": {
+	"rdc": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "idc1" },
+					{ "time": 0.0667, "name": "idc2" },
+					{ "time": 0.1333, "name": "idc3" },
+					{ "time": 0.2, "name": "idc4" },
+					{ "time": 0.2667, "name": "idc5" },
+					{ "time": 0.3333, "name": "idc6" }
+				]
+			}
+		}
+	},
+	"ring": {
+		"slots": {
+			"1": {
+				"attachment": [
+					{ "name": "r1" },
+					{ "time": 0.0667, "name": "r2" },
+					{ "time": 0.1333, "name": "r3" },
+					{ "time": 0.2, "name": "r4" },
+					{ "time": 0.2667, "name": "r5" },
+					{ "time": 0.3333, "name": "r6" }
+				]
+			}
+		}
+	}
+}
+}
